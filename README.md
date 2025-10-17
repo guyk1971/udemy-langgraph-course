@@ -1,6 +1,7 @@
 # Reflexion Agent with LangGraph 🦜🕸️
 
 Implementation of a sophisticated Reflexion agent using LangGraph and LangChain, designed to generate high-quality responses through self-reflection and iterative improvement.
+![reflexion diagram](reflexion.png)
 
 This project demonstrates advanced AI agent capabilities using LangGraph's state-of-the-art control flow mechanisms for self-reflection and response refinement.
 
