@@ -28,6 +28,10 @@ graph LR;
 ```
 [![udemy](https://img.shields.io/badge/LangGraph🦜🔗%20Udemy%20Course-%20Coupon%20%2412.99-brightgreen)](https://www.udemy.com/course/langgraph/?couponCode=APRIL-2025)
 
+> [!NOTE]
+> see [blog](https://blog.langchain.com/reflection-agents/) and [paper](https://arxiv.org/pdf/2303.11366)
+
+
 ## Features
 
 - **Self-Reflection**: Implements sophisticated reflection mechanisms for response improvement
@@ -72,13 +76,13 @@ cd reflexion-agent
 Install dependencies:
 
 ```bash
-poetry install
+uv sync
 ```
 
 Start the agent:
 
 ```bash
-poetry run python main.py
+uv run python main.py
 ```
 
 ## Development Setup
@@ -100,7 +104,7 @@ poetry run python main.py
 To run tests, use the following command:
 
 ```bash
-poetry run pytest . -s -v
+uv run pytest . -s -v
 ```
 
 ## Acknowledgements
