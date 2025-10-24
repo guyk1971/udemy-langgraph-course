@@ -11,6 +11,11 @@ of [Sophia Young](https://x.com/sophiamyang) from Mistral & [Lance Martin](https
 ![Logo](https://github.com/emarco177/langgraph-course/blob/project/agentic-rag/static/Langgraph%20Adaptive%20Rag.png)
 [![udemy](https://img.shields.io/badge/LangGraph🦜🔗%20Udemy%20Course-%20Coupon%20%2412.99-brightgreen)](https://www.udemy.com/course/langgraph/?couponCode=APRIL-2025)
 
+This is based on 3 papers: 
+- [Corrective RAG](https://arxiv.org/pdf/2401.15884)
+- [Self RAG](https://arxiv.org/pdf/2310.11511)
+- [Adaptive RAG](https://arxiv.org/pdf/2403.14403)
+
 
 ## Features
 
@@ -27,6 +32,8 @@ of [Sophia Young](https://x.com/sophiamyang) from Mistral & [Lance Martin](https
 - **Document Relevance Evaluation**: Implement logic to grade document relevance and detect hallucinations
 - **Adaptive Information Retrieval**: Create a system that can switch between local knowledge and web search
 - **State Management**: Implement proper state handling for complex information flows
+
+
 
 ## Tutorial Structure
 
@@ -74,9 +81,7 @@ git checkout project/agentic-rag
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
-# or if using Poetry:
-poetry install
+uv sync
 ```
 
 Follow along with each commit to learn the process of building an Agentic RAG system:
