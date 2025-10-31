@@ -1,11 +1,14 @@
 from dotenv import load_dotenv
 
+# Load environment variables FIRST, before any other imports
+# Use override=True to replace any existing environment variables
+load_dotenv(override=True)
+
 from langchain_core.messages import HumanMessage
 from langgraph.graph import MessagesState, StateGraph,END
 
 from nodes import run_agent_reasoning, tool_node
 
-load_dotenv()
 
 AGENT_REASON="agent_reason"
 ACT= "act"
